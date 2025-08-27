@@ -14,7 +14,7 @@ const FAQItem = ({ id, question, answer, onClick, isOpen }) => {
       <button
         className="w-full py-4 px-4 flex justify-between items-center
         text-left focus:outline-none rounded-lg transition-all duration-300 cursor-pointer
-        text-gray-900 dark:text-white hover:text-transparent dark:text-transparent hover:bg-clip-text
+        text-gray-900  hover:text-transparent dark:text-transparent hover:bg-clip-text
         hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600
         dark:hover:from-indigo-400 dark:hover:to-purple-400"
         onClick={() => onClick(id)}
