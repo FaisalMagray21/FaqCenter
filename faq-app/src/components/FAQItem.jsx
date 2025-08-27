@@ -16,7 +16,7 @@ const FAQItem = ({ id, question, answer, onClick, isOpen }) => {
         text-left focus:outline-none rounded-lg transition-all duration-300 cursor-pointer
         text-gray-900  hover:text-transparent dark:text-transparent hover:bg-clip-text
         hover:bg-gradient-to-r hover:from-indigo-600 hover:to-purple-600
-        dark:hover:from-indigo-400 dark:hover:to-purple-400"
+        dark:hover:from-indigo-400 dark:hover:to-purple-400 "
         onClick={() => onClick(id)}
       >
         <span className="text-base sm:text-lg font-medium pr-6">{question}</span>
